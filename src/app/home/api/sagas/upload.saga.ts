@@ -20,7 +20,7 @@ export class UploadSaga {
 
     *upload(uploadAction, uploadService, spinnerService) {
         try {
-            yield put({ type: UploadAction.UPLOAD_STARTED, payload: { usersLoading: true } });
+            yield put({ type: UploadAction.UPLOAD_STARTED, payload: { uploading: true } });
             spinnerService.show();
             // const uplaod$ = yield apply(uploadService, uploadService.upload)
             const res = yield apply(uploadService, uploadService.upload);

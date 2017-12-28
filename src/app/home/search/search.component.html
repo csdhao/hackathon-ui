@@ -7,15 +7,15 @@
             </mat-option>
         </mat-select>
         <mat-icon fxFlex="initial">location_on</mat-icon>
-        <mat-select fxFlex placeholder="province" [(ngModel)]="param.province">
+        <mat-select fxFlex placeholder="area" [(ngModel)]="param.province">
             <mat-option *ngFor="let province of provinces" [value]="province.value">
                 <span>{{ province.name }}</span>
             </mat-option>
         </mat-select>
         <mat-icon fxFlex="initial">face</mat-icon>
-        <mat-select fxFlex placeholder="age" [(ngModel)]="param.age">
-            <mat-option *ngFor="let age of ages" [value]="age.value">
-                <span>{{ age.name }}</span>
+        <mat-select fxFlex placeholder="year" [(ngModel)]="param.year">
+            <mat-option *ngFor="let year of years" [value]="year.value">
+                <span>{{ year.name }}</span>
             </mat-option>
         </mat-select>
 
@@ -26,7 +26,7 @@
 
     </div>
 
-    <div fxLayout fxLayoutGap="20px" fxLayoutAlign="start center" class="margin-default">
-        matched records: {{count}}
+    <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center" class="margin-default count-panel">
+        <h1>matched counts: <label style="color:red;">{{count}}</label></h1>
     </div>
 </div>
