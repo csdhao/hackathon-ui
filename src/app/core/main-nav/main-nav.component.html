@@ -1,0 +1,29 @@
+<div id="main-nav" class="mat-elevation-z3" fxLayout fxLayoutGap="10px" fxLayoutAlign="start center">
+    <div fxFlex="initial">
+        <a routerLink="/home">
+            <img src="./assets/images/acxiom-logo.png" height="23px">
+        </a>
+    </div>
+    <div fxFlex class="close-sides">
+        <div fxLayout fxLayoutAlign="end center" class="app-navigator">
+            <div fxFlex="initial">
+                <button id="view_apps" mat-icon-button [matMenuTriggerFor]="appMenu">
+                    <mat-icon>apps</mat-icon>
+                </button>
+                <mat-menu #appMenu="matMenu" [overlapTrigger]="false">
+                    <!-- <a mat-menu-item routerLink="/home">
+                        <mat-icon>dashboard</mat-icon> upload data</a> -->
+                </mat-menu>
+            </div>
+        </div>
+    </div>
+    <div fxFlex="nogrow">
+        <button mat-icon-button disabled="true">
+            <mat-icon>notifications</mat-icon>
+        </button>
+        <button mat-icon-button class="account-button">
+            <mat-icon>account_circle</mat-icon>
+        </button>
+    </div>
+
+</div>

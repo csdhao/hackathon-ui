@@ -1,0 +1,9 @@
+@import '../acxiom-material-theme';
+
+#main-content {
+  height: calc(100% - 60px);
+  background: -webkit-linear-gradient(white, mat-color($as-app-primary,50));
+  background: -o-linear-gradient(white, mat-color($as-app-primary,50));
+  background: -moz-linear-gradient(white, mat-color($as-app-primary,50));
+  background: linear-gradient(white, mat-color($as-app-primary,50));
+}

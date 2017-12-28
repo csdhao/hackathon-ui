@@ -1,0 +1,61 @@
+<div id="upload" class="mat-elevation-z3" fxLayout="column">
+    <div fxLayout="column" fxLayoutGap="20px" fxLayoutAlign="start center" class="margin-default">
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <mat-form-field>
+                    <input type="text" matInput placeholder="Data File" [(ngModel)]="file.path">
+                </mat-form-field>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <mat-form-field>
+                    <input type="text" matInput placeholder="SFTP Host" [(ngModel)]="file.host">
+                </mat-form-field>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <mat-form-field>
+                    <input type="text" matInput placeholder="SFTP Username" [(ngModel)]="file.username">
+                </mat-form-field>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <mat-form-field>
+                    <input type="text" matInput placeholder="SFTP Password" [(ngModel)]="file.password">
+                </mat-form-field>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <mat-form-field>
+                    <input type="text" matInput placeholder="SFTP Port" [(ngModel)]="file.port">
+                </mat-form-field>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+        <div fxLayout="row" class="full-weight">
+            <div fxFlex="35"></div>
+            <div fxFlex="30">
+                <div fxLayout="column" fxLayoutAlign="start end" class="full-weight">
+                    <button mat-raised-button color="accent" (click)="upload()">
+                        Upload
+                        <mat-icon>backup</mat-icon>
+                    </button>
+                </div>
+            </div>
+            <div fxFlex="35"></div>
+        </div>
+    </div>
+</div>

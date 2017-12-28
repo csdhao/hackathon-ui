@@ -1,0 +1,85 @@
+@import '../../acxiom-material-theme';
+
+#app-navigator {
+  width: 100%;
+  #welcome-banner {
+    background: rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    mat-select {
+      margin-top: -15px;
+      width: 200px;
+      /deep/ {
+        .mat-select-placeholder {
+          color: white;
+          &.mat-floating-placeholder {
+            color: rgba(255, 255, 255, 0.54);
+          }
+        }
+        .mat-select-value {
+          color: white;
+        }
+        .mat-select-underline {
+          background-color: rgba(255, 255, 255, 0.42);
+        }
+        .mat-select-arrow {
+          color: rgba(255, 255, 255, 0.54);
+        }
+      }
+    }
+  }
+  #app-carousel {
+    padding: 20px 10px;
+    .layout {
+      .carousel-nav-button {
+        .carousel-button {
+          height: auto;
+          width: auto;
+          mat-icon {
+            font-size: 80px;
+            height: 80px;
+            width: 80px;
+            line-height: 80px;
+          }
+        }
+        &.nav-item {
+          .carousel-button {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            img {
+              height: 80px;
+            }
+          }
+        }
+      }
+      .nav-right {
+        .carousel-button {
+          float: right;
+        }
+      }
+    }
+  }
+}
+mat-tab-group {
+  margin: 20px;
+  /deep/ {
+    .mat-tab-nav-bar, .mat-tab-header {
+      border-bottom: none;
+    }
+    .mat-tab-label {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 100;
+      &.mat-tab-label-active {
+        color: mat-color($as-app-accent, 700);
+      }
+    }
+    .mat-ink-bar {
+      background-color: mat-color($as-app-accent, 500) !important;
+      height: 4px;
+    }
+  }
+  /deep/ .mat-tab-body-content {
+    padding: 20px 10px;
+    max-width: 1000px;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../../acxiom-material-theme';
+
+$as-green: mat-color(map-get($as-app-theme, accent), 400);
+
+#main-nav {
+  height: 60px;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  background: white !important;
+  h1 {
+    font-weight: 100 !important;
+    color: $as-green;
+    margin: 0;
+  }
+  .account-button {
+    color: $as-green;
+  }
+  #view_apps {
+    margin-right: 15px;
+  }
+  .close-sides {
+    height: 100%;
+    border-right: 1px solid mat-color($mat-grey, 200);
+    border-left: 1px solid mat-color($mat-grey, 200);
+    .app-navigator {
+      height: 100%;
+    }
+  }
+}

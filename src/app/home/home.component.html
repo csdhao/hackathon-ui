@@ -1,0 +1,39 @@
+<div id="app-navigator" class="flair" fxLayout="column">
+  <div fxFlex id="app-carousel">
+    <div class="layout" fxLayout fxLayoutGap="20px" fxLayoutAlign="start center">
+ 
+      <div fxFlex="20%" class="carousel-nav-button nav-item" *ngFor="let navItem of navItems">
+        <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="10px">
+          <div fxFlex>
+            <div [ngSwitch]="navItem.route">
+              <a *ngSwitchCase="undefined"
+                 class="carousel-button"
+                 [disabled]="navItem.disabled"
+                 mat-icon-button
+                 [href]="navItem.url"
+                 target="_blank">
+                <img [src]="navItem.src">
+              </a>
+              <a *ngSwitchDefault
+                 class="carousel-button"
+                 [disabled]="navItem.disabled"
+                 mat-icon-button
+                 [routerLink]="navItem.route">
+                <img [src]="navItem.src">
+              </a>
+            </div>
+          </div>
+          <div fxFlex="initial">
+            <div class="text-ellipsis">
+              <span>{{navItem.name}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+<div id="main-content">
+  <router-outlet></router-outlet>
+</div>

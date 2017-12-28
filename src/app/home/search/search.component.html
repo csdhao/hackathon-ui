@@ -1,0 +1,32 @@
+<div id="get-counts" class="mat-elevation-z3" fxLayout="column">
+    <div fxLayout fxLayoutGap="20px" fxLayoutAlign="start center" class="margin-default">
+        <mat-icon fxFlex="initial">supervisor_account</mat-icon>
+        <mat-select fxFlex placeholder="gender" [(ngModel)]="param.gender">
+            <mat-option *ngFor="let gender of genders" [value]="gender.value">
+                <span>{{ gender.name }}</span>
+            </mat-option>
+        </mat-select>
+        <mat-icon fxFlex="initial">location_on</mat-icon>
+        <mat-select fxFlex placeholder="province" [(ngModel)]="param.province">
+            <mat-option *ngFor="let province of provinces" [value]="province.value">
+                <span>{{ province.name }}</span>
+            </mat-option>
+        </mat-select>
+        <mat-icon fxFlex="initial">face</mat-icon>
+        <mat-select fxFlex placeholder="age" [(ngModel)]="param.age">
+            <mat-option *ngFor="let age of ages" [value]="age.value">
+                <span>{{ age.name }}</span>
+            </mat-option>
+        </mat-select>
+
+        <button mat-raised-button color="accent" (click)="query()">
+            Search
+            <mat-icon>search</mat-icon>
+        </button>
+
+    </div>
+
+    <div fxLayout fxLayoutGap="20px" fxLayoutAlign="start center" class="margin-default">
+        matched records: {{count}}
+    </div>
+</div>

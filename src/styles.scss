@@ -1,0 +1,42 @@
+@import 'acxiom-material-theme';
+@import '/assets/fonts/MyFontsWebfontsKit.css';
+
+html, body, app-root {
+  margin: 0;
+  height: 100%;
+  background: mat-color($as-app-primary, 50);
+}
+.text-ellipsis {
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+mat-form-field {
+  font-size: 16px !important;
+  .mat-input-wrapper, .mat-input-field-wrapper {
+    padding-bottom: 0;
+  }
+  .mat-form-field-underline, .mat-form-field-subscript-wrapper {
+    bottom: 0;
+  }
+}
+
+.mat-select-placeholder {
+  font-weight: 400;
+}
+.flair {
+  color: white !important;
+  background: -webkit-linear-gradient(223deg,mat-color($as-app-primary, 900) 9%, mat-color($as-app-accent, 900) 100%) !important;
+  h2 {
+    margin: 0;
+  }
+  button {
+    background: rgba(0,0,0,0.1);
+  }
+}
+
+.mat-raised-button {
+  display: initial !important;
+}

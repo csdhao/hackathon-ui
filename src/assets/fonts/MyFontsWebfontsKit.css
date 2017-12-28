@@ -1,0 +1,118 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3482323, 2017-11-13T12:42:50-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Flexo-BoldIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/bold-italic/
+ * 
+ * Webfont: Flexo-ThinIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/thin-italic/
+ * 
+ * Webfont: Flexo-Thin by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/thin/
+ * 
+ * Webfont: Flexo-Regular by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/regular/
+ * 
+ * Webfont: Flexo-MediumIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/medium-italic/
+ * 
+ * Webfont: Flexo-Medium by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/medium/
+ * 
+ * Webfont: Flexo-Light by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/light/
+ * 
+ * Webfont: Flexo-Heavy by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/heavy/
+ * 
+ * Webfont: Flexo-HeavyIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/heavy-italic/
+ * 
+ * Webfont: Flexo-LightIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/light-italic/
+ * 
+ * Webfont: Flexo-It by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/italic/
+ * 
+ * Webfont: Flexo-DemiIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/demi-italic/
+ * 
+ * Webfont: Flexo-Demi by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/demi/
+ * 
+ * Webfont: Flexo-BlackIt by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/black-italic/
+ * 
+ * Webfont: Flexo-Bold by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/bold/
+ * 
+ * Webfont: Flexo-Black by Durotype
+ * URL: https://www.myfonts.com/fonts/durotype/flexo/black/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3482323
+ * Licensed pageviews: 500,000
+ * Webfonts copyright: Copyright &#x00A9; 2011-2012 Durotype, www.durotype.com. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3522d3");
+
+  
+@font-face {font-family: 'Flexo-BoldIt';src: url('webfonts/3522D3_0_0.eot');src: url('webfonts/3522D3_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_0_0.woff2') format('woff2'),url('webfonts/3522D3_0_0.woff') format('woff'),url('webfonts/3522D3_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-ThinIt';src: url('webfonts/3522D3_1_0.eot');src: url('webfonts/3522D3_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_1_0.woff2') format('woff2'),url('webfonts/3522D3_1_0.woff') format('woff'),url('webfonts/3522D3_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Thin';src: url('webfonts/3522D3_2_0.eot');src: url('webfonts/3522D3_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_2_0.woff2') format('woff2'),url('webfonts/3522D3_2_0.woff') format('woff'),url('webfonts/3522D3_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Regular';src: url('webfonts/3522D3_3_0.eot');src: url('webfonts/3522D3_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_3_0.woff2') format('woff2'),url('webfonts/3522D3_3_0.woff') format('woff'),url('webfonts/3522D3_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-MediumIt';src: url('webfonts/3522D3_4_0.eot');src: url('webfonts/3522D3_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_4_0.woff2') format('woff2'),url('webfonts/3522D3_4_0.woff') format('woff'),url('webfonts/3522D3_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Medium';src: url('webfonts/3522D3_5_0.eot');src: url('webfonts/3522D3_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_5_0.woff2') format('woff2'),url('webfonts/3522D3_5_0.woff') format('woff'),url('webfonts/3522D3_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Light';src: url('webfonts/3522D3_6_0.eot');src: url('webfonts/3522D3_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_6_0.woff2') format('woff2'),url('webfonts/3522D3_6_0.woff') format('woff'),url('webfonts/3522D3_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Heavy';src: url('webfonts/3522D3_7_0.eot');src: url('webfonts/3522D3_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_7_0.woff2') format('woff2'),url('webfonts/3522D3_7_0.woff') format('woff'),url('webfonts/3522D3_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-HeavyIt';src: url('webfonts/3522D3_8_0.eot');src: url('webfonts/3522D3_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_8_0.woff2') format('woff2'),url('webfonts/3522D3_8_0.woff') format('woff'),url('webfonts/3522D3_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-LightIt';src: url('webfonts/3522D3_9_0.eot');src: url('webfonts/3522D3_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_9_0.woff2') format('woff2'),url('webfonts/3522D3_9_0.woff') format('woff'),url('webfonts/3522D3_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-It';src: url('webfonts/3522D3_A_0.eot');src: url('webfonts/3522D3_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_A_0.woff2') format('woff2'),url('webfonts/3522D3_A_0.woff') format('woff'),url('webfonts/3522D3_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-DemiIt';src: url('webfonts/3522D3_B_0.eot');src: url('webfonts/3522D3_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_B_0.woff2') format('woff2'),url('webfonts/3522D3_B_0.woff') format('woff'),url('webfonts/3522D3_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Demi';src: url('webfonts/3522D3_C_0.eot');src: url('webfonts/3522D3_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_C_0.woff2') format('woff2'),url('webfonts/3522D3_C_0.woff') format('woff'),url('webfonts/3522D3_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-BlackIt';src: url('webfonts/3522D3_D_0.eot');src: url('webfonts/3522D3_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_D_0.woff2') format('woff2'),url('webfonts/3522D3_D_0.woff') format('woff'),url('webfonts/3522D3_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Bold';src: url('webfonts/3522D3_E_0.eot');src: url('webfonts/3522D3_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_E_0.woff2') format('woff2'),url('webfonts/3522D3_E_0.woff') format('woff'),url('webfonts/3522D3_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Flexo-Black';src: url('webfonts/3522D3_F_0.eot');src: url('webfonts/3522D3_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3522D3_F_0.woff2') format('woff2'),url('webfonts/3522D3_F_0.woff') format('woff'),url('webfonts/3522D3_F_0.ttf') format('truetype');}
+ 

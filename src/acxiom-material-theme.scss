@@ -1,0 +1,248 @@
+@import '~@angular/material/theming';
+
+$aac-green: (
+  50 : #f0f8ef,
+  100 : #d9eed6,
+  200 : #c0e3bb,
+  300 : #a7d89f,
+  400 : #94cf8b,
+  500 : #81c776,
+  600 : #79c16e,
+  700 : #6eba63,
+  800 : #64b359,
+  900 : #51a646,
+  A100 : #fefffe,
+  A200 : #d1ffcb,
+  A400 : #a3ff98,
+  A700 : #8dff7f,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-blue: (
+  50 : #f0f4f6,
+  100 : #d9e3e9,
+  200 : #c0d0db,
+  300 : #a6bdcc,
+  400 : #93afc1,
+  500 : #80a1b6,
+  600 : #7899af,
+  700 : #6d8fa6,
+  800 : #63859e,
+  900 : #50748e,
+  A100 : #f1f9ff,
+  A200 : #bee3ff,
+  A400 : #8bcdff,
+  A700 : #71c2ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-purple: (
+  50 : #f1f0f6,
+  100 : #dbd9e9,
+  200 : #c3c0db,
+  300 : #aba6cc,
+  400 : #9993c1,
+  500 : #8780b6,
+  600 : #7f78af,
+  700 : #746da6,
+  800 : #6a639e,
+  900 : #57508e,
+  A100 : #f2f1ff,
+  A200 : #c5beff,
+  A400 : #978bff,
+  A700 : #8071ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-teal: (
+  50 : #eaf2f3,
+  100 : #c9dee0,
+  200 : #a6c9cc,
+  300 : #82b3b8,
+  400 : #67a2a8,
+  500 : #4c9299,
+  600 : #458a91,
+  700 : #3c7f86,
+  800 : #33757c,
+  900 : #24636b,
+  A100 : #adf5ff,
+  A200 : #7af0ff,
+  A400 : #47eaff,
+  A700 : #2de7ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-yellow: (
+  50 : #fbf9e8,
+  100 : #f5f1c7,
+  200 : #efe8a1,
+  300 : #e8df7b,
+  400 : #e3d85f,
+  500 : #ded143,
+  600 : #dacc3d,
+  700 : #d5c634,
+  800 : #d1c02c,
+  900 : #c8b51e,
+  A100 : #ffffff,
+  A200 : #fff9cc,
+  A400 : #fff299,
+  A700 : #ffef80,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-orange: (
+  50 : #fcf2e2,
+  100 : #f8dfb6,
+  200 : #f4c986,
+  300 : #efb356,
+  400 : #eba331,
+  500 : #e8930d,
+  600 : #e58b0b,
+  700 : #e28009,
+  800 : #de7607,
+  900 : #d86403,
+  A100 : #ffffff,
+  A200 : #ffe1cd,
+  A400 : #ffc29a,
+  A700 : #ffb380,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$aac-red: (
+  50 : #fae8e9,
+  100 : #f2c5c8,
+  200 : #e99fa4,
+  300 : #e07980,
+  400 : #da5c64,
+  500 : #d33f49,
+  600 : #ce3942,
+  700 : #c83139,
+  800 : #c22931,
+  900 : #b71b21,
+  A100 : #ffedee,
+  A200 : #ffbabc,
+  A400 : #ff878b,
+  A700 : #ff6e72,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+@include mat-core();
+
+$as-app-primary: mat-palette($aac-blue);
+$as-app-accent: mat-palette($aac-green);
+$as-app-warn:    mat-palette($aac-red);
+
+$as-app-theme: mat-light-theme($as-app-primary, $as-app-accent, $as-app-warn);
+
+$as-app-dark-theme: mat-dark-theme($as-app-primary, $as-app-accent, $as-app-warn);
+
+@include angular-material-theme($as-app-theme);
+
+.acxiom-dark-theme {
+  @include angular-material-theme($as-app-dark-theme);
+}

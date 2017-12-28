@@ -1,0 +1,41 @@
+@import '../../../acxiom-material-theme';
+#about-us {
+    background: white;
+    margin: 20px 5px;
+    .config-options {
+        padding: 10px;
+        mat-checkbox {
+            float: right;
+        }
+        .data-config {
+            .step-header {
+                margin-left: 20px;
+            }
+            .column {
+                padding: 0 10px;
+            }
+            .data-config-step {
+                &:not(:first-child) {
+                    border-left: 1px solid mat-color($mat-grey, 300);
+                }
+                h4 {
+                    color: mat-color($as-app-primary, 500);
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+    .options-content {
+        padding: 10px 0;
+    }
+}
+
+.full-weight{
+    width: 100%;
+}
+.mat-form-field{
+    width: 100%;
+}
+.margin-default{
+    margin: 20px 50px;
+}
