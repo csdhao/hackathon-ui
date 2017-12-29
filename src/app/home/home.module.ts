@@ -18,6 +18,7 @@ import { SearchSaga } from './api/sagas/search.saga';
 import { SearchService } from './api/services/search.service';
 
 import { AboutUsComponent } from './about-us/about-us.component';
+import { UploadDialog } from './upload/dialog/upload.dialog';
 
 @NgModule({
     imports: [
@@ -27,8 +28,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
         FlexLayoutModule
     ],
     declarations: [
-        UploadComponent, SearchComponent, HomeComponent, AboutUsComponent
+        UploadComponent, SearchComponent, HomeComponent, AboutUsComponent, UploadDialog
     ],
+    entryComponents: [UploadDialog],
     bootstrap: [
 
     ],

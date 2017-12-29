@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
 
 @Component({
     selector: 'app-home',
@@ -11,25 +13,27 @@ export class HomeComponent implements OnInit {
         {
             name: 'Upload Data',
             src: './assets/images/icon-audience-onboard.png',
-            route: '/upload'
+            route: '/home/upload'
         },
         {
             name: 'Get Counts',
             src: './assets/images/icon-ask-abby.png',
-            route: '/search'
+            route: '/home/search'
         },
-        // {
-        //     name: 'About Us',
-        //     src: './assets/images/icon-audience-builder.png',
-        //     route: '/aboutus'
-        // },
+        {
+            name: 'About Us',
+            src: './assets/images/icon-audience-builder.png',
+            route: '/home/aboutus'
+        },
     ];
 
     currentTab = 0;
 
     tabTimeout;
 
-    constructor() { }
+    constructor(private route: Router) {
+        route.navigate(['/home/upload']);
+    } 
 
     ngOnInit() {
         this.animateTabs();

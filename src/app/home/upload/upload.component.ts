@@ -4,6 +4,7 @@ import { MatDialog, MatDialogRef } from '@angular/material';
 
 import { select } from '@angular-redux/store';
 import { UploadAction } from '../api/actions/upload.action';
+import { UploadDialog } from './dialog/upload.dialog';
 
 
 // 为 AppComponent 组件类添加注解
@@ -21,27 +22,30 @@ export class UploadComponent {
         password: '*******',
         port: '22'
     }
+    isUploading = false;
 
     @select(['home', 'upload', 'uploading']) readonly uploading$: any;
-    constructor( @Inject(UploadAction) public uploadAction: any, private dialog: MatDialog) {
-        this.uploading$.subscribe(payload => {
 
+    constructor( @Inject(UploadAction) public uploadAction: any, public dialog: MatDialog) {
+        this.uploading$.subscribe(payload => {
+            if (this.isUploading && !payload) {
+                this.openDialog();
+            }
         });
     }
     upload() {
-        this.uploadAction.upload();
-        // this.showAlert();
+        this.openDialog();
+
     }
 
-    showAlert = function () {
-        this.dialog.show(
-            this.dialog.alert()
-                .parent()
-                .clickOutsideToClose(true)
-                .title('This is an alert title')
-                .textContent('You can specify some description text in here.')
-                .ariaLabel('Alert Dialog Demo')
-                .ok('Got it!')
-        );
-    };
+    openDialog() {
+        let dialogRef = this.dialog.open(UploadDialog, {
+            width: '400px',
+            data: {}
+        });
+
+        dialogRef.afterClosed().subscribe(result => {
+            console.log('The dialog was closed');
+        });
+    }
 }
